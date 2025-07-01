@@ -21,7 +21,7 @@ export type Filters<T> = {
 }
 
 export type Query<T = any> = {
-  [K in keyof T]: T[K] | Operators<T, K>
+  [K in keyof T]?: T[K] | Operators<T, K>
 } & Filters<T>
 
 // Core CRUD operations using props pattern
