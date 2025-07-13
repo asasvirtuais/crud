@@ -70,12 +70,7 @@ function convertQuery<T>(query?: Query<T>): Record<string, any> {
   return airtableQuery
 }
 
-export interface AirtableConfig {
-  token: string
-  baseId: string
-}
-
-export function airtableCRUD({ token, baseId }: AirtableConfig): CRUD {
+export function airtableCRUD(baseId: string): CRUD {
   const base = airtableSDK({ token }).base(baseId)
   
   return {
