@@ -71,7 +71,7 @@ function convertQuery<T>(query?: Query<T>): Record<string, any> {
 }
 
 export function airtableCRUD(baseId: string): CRUD {
-  const base = airtableSDK({ token }).base(baseId)
+  const base = airtableSDK.base(baseId)
   
   return {
     async find<T = any>(props: FindProps): Promise<T> {
