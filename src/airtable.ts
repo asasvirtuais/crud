@@ -1,4 +1,4 @@
-import type { CRUD, Query, FindProps, CreateProps, UpdateProps, RemoveProps, ListProps } from '../core'
+import type { CRUD, Query, FindProps, CreateProps, UpdateProps, RemoveProps, ListProps } from './core'
 import airtableSDK from '@asasvirtuais/airtable'
 
 // Convert Query to Airtable query format

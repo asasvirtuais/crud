@@ -1,5 +1,5 @@
-import { CRUD } from "../core"
-import { NextRequest } from "next/server"
+import { NextRequest } from 'next/server'
+import { CRUD } from './core'
 
 export function routes(implementation: CRUD) {
   return {

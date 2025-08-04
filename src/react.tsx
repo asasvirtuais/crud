@@ -17,7 +17,7 @@ import {
   useFields,
   useForm,
 } from "@asasvirtuais/react"
-import { CRUD, ListProps } from "../core"
+import { CRUD, ListProps } from "./core"
 
 // Re-export hooks from @asasvirtuais/react for convenience
 export { useFields, useForm } from "@asasvirtuais/react"
