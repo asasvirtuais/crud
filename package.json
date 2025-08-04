@@ -8,6 +8,9 @@
   "exports": {
     ".": "./src/index.ts",
     "./*": "./src/*",
+    "./react": "./src/react.tsx",
+    "./next": "./src/next.ts",
+    "./airtable": "./src/airtable.ts",
     "./package.json": "./package.json"
   },
   "peerDependencies": {
