@@ -12,7 +12,8 @@
     "./next": "./src/next/index.ts",
     "./firestore": "./src/firestore/index.ts",
     "./yaml": "./src/yaml/index.ts",
-    "./airtable": "./src/airtable/index.ts"
+    "./airtable": "./src/airtable/index.ts",
+    "./package.json": "./package.json"
   },
   "peerDependencies": {
     "@asasvirtuais/airtable": "github:asasvirtuais/airtable#main",
